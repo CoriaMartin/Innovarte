@@ -1,0 +1,201 @@
+@font-face {
+    font-family: "handmade";
+    src: url('font/Handmade.otf');
+}
+@font-face {
+    font-family: "cute";
+    src: url(font/AppleGaramond-Bold.ttf);
+}
+/*dafont.com pagina para ver estilos de letra*/
+*{
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    /*background: linear-gradient(90deg,#8C4F79 , #FFF2D8);*/
+    
+}
+body{
+    background: linear-gradient(90deg,#8C4F79 , #FFF2D8);
+}
+nav{
+    display: flex;
+    background-color: #C5C9C8;
+    justify-content: space-around;
+    height: 25vh;
+    border-radius: 10%;
+
+}
+html{
+    font-size: 62.5%;
+}
+h1 {
+    color: black;
+    font-size: 5rem;
+    font-family: "handmade";
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+a:hover{
+    color: red;/*al poner el mouse, cambia color*/
+}
+nav h1{
+    display: flex;
+    align-items: center;
+    font-size: 10rem;
+}
+li{
+    display: inline-block;
+    height: 3rem;
+    width: 15rem;
+    
+}
+.imgppal{
+    border-radius: 50%;
+    height: 23rem;
+}
+a{
+    text-decoration: none; /*Para sacarle el subrayado*/
+    color: black;
+}
+article{
+    display: flex;
+    align-items:baseline;
+    height: 60vh;
+    justify-content: center;
+
+}
+article span img{
+    height: 50vh ;
+    
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+
+}
+article span img:hover{
+    padding: 5px;
+
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+}
+h2{
+    color: #04364A;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+a{
+    font-size: 2rem;
+}
+h4{
+    font-size: 2rem;
+}
+p {
+    color: blue;
+    font-size: 2rem;
+    
+}
+
+#especial {
+    color: greenyellow;
+}
+
+
+
+.tipos{
+    /*background-color: burlywood;*/
+    height: 30rem;
+    width: 40rem;
+    font-size: 3rem;
+    color: black;
+    
+    /*border-style: solid;
+    border-width: 3px;*/
+    margin: 2rem 3rem;
+    display: inline-block;
+    font-family: "cute";
+    padding: 3rem;
+    
+    /*border: 10px solid black;*/
+
+}
+/*.video1{
+    height: 30rem;
+    width: 40rem;
+    margin: 2rem 3rem;
+    display: inline-block;
+    box-sizing: content-box;
+    
+    
+}
+.video2{
+    height: 30rem;
+    width: 40rem;
+    margin: 2rem 3rem;
+    display: inline-block;
+    margin-top: 0px;
+    box-sizing: content-box;
+}*/
+img{
+    height: 80vh ;
+    
+}
+
+.flex-container{
+    
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    justify-content:left;
+    margin: auto;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+    
+}
+.flex-item{
+    margin-top: 2em;
+    height: 85%;
+    width: 55%;
+    
+    align-items:end;
+    
+}
+
+.flex-footer{
+    
+    height: 8vh;
+    width: 80vw;
+    display: flex;
+    justify-content:center;
+    margin: auto;
+    flex-wrap: nowrap;
+    align-items:flex-end;
+    
+}
+.flex-fit{
+    margin-top: 2em;
+    height: 85%;
+    width: 55%;
+    
+}
+/*CELULAR*/
+@media screen and (max-width:640px) {
+    img{
+        width: 100px;
+    
+    }
+}
+/*TABLET*/
+@media screen and (max-width:1024px) and (min-width:640px) {
+    
+}
+/*PC*/
+@media screen and (min-width:1024px) {
+    
+}
